@@ -1,4 +1,6 @@
-
+body{
+    background-color: darkslategray;
+}
 .rednametag{
     background-color: red;
     color:black;
@@ -9,10 +11,9 @@
     left: 50%;
     margin-top: -150px;
     margin-left: -100px;
-    z-index: -1;
     border-radius: 1em;
     border-style: solid;
-    
+    border-width: thin;
     
 }
 div h2{
@@ -44,8 +45,9 @@ div p{
     top: 50%;
     left: 50%;
     margin-top: -50px;
-    margin-left: -97px;
-    
+    margin-left: -100px;
+    border-style: solid;
+    border-width: thin;
 }
 div h1{
     font-family: cursive;
